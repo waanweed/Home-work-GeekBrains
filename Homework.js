@@ -11,3 +11,4 @@ alert("По фаренгейту это:" + tempF.toFixed(0));
 var admin = name = prompt("Введите имя:");
 alert(admin);
 
+///
