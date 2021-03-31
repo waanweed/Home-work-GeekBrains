@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    var a = 1, b = 1, c, d;
+    c = ++a; alert(c);           // 2 форма префикс
+    d = b++; alert(d);           // 1 форма постфикс 
+    c = (2 + ++a); alert(c);      // 5 префиксная 2 + 3 
+    d = (2 + b++); alert(d);      // 4 постфиксная 2 + 2 
+    alert(a);                    // 3 
+    alert(b);                    // 3
+
+
+
+
+    var a = 2;
+    var x = 1 + (a *= 2);
+
+    x = 1 + (a * 2);
+    x = 5;
+
+
+    function answers(a, b) {
+        if (a >= 0 && b >= 0)
+            return a - b;
+        if (a < 0 && b < 0)
+            return a * b;
+        return a + b;
+
+    }
+
+
+
+</script>
